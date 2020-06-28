@@ -16,9 +16,14 @@ app.secret_key = 'your secret key'
 # Intialize MySQL
 #mysql = MySQL(app)
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
 @app.route('/')
 def index():
-    return render_template('Main.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
    app.run(debug = True)
