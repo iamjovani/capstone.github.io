@@ -3115,11 +3115,7 @@ figcaption {
   border-color: #f09d1f;
 }
 
-element {
-  will-change: transform;
-  transform: translate3d(0px, 82.5578%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
-  transform-style: preserve-3d;
-}
+
 .form-select {
   height: 48px;
   margin-bottom: 24px;

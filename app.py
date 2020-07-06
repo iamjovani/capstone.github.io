@@ -16,9 +16,13 @@ app.secret_key = 'your secret key'
 # Intialize MySQL
 #mysql = MySQL(app)
 
-@app.route('/about')
+@app.route('/overview')
 def about():
     return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact-us.html')
 
 
 @app.route('/')
