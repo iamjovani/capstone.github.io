@@ -631,7 +631,7 @@ figcaption {
 .section.is-header {
   padding-top: 160px;
   background-color: #f0f0f0;
-  background-image: url('/static/images/about-us.jpeg');
+  background-image: url('../images/lamborghini-urus-wheelsandmore-tuning-6.jpg');
   background-position: 30% 50%;
   background-size: 2530px;
   background-repeat: no-repeat;
@@ -705,7 +705,7 @@ figcaption {
 }
 
 .section.is-hero.img-hero.flexh-align-bottom {
-  background-image: url('../images/background-image.jpg');
+  background-image: url('../images/lamborghini-urus-wheelsandmore-tuning-3.jpg');
 }
 
 .legend {
@@ -3115,7 +3115,11 @@ figcaption {
   border-color: #f09d1f;
 }
 
-
+element {
+  will-change: transform;
+  transform: translate3d(0px, 82.5578%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+}
 .form-select {
   height: 48px;
   margin-bottom: 24px;
@@ -4298,7 +4302,7 @@ figcaption {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   font-family: 'Fa solid 900', sans-serif;
-  color: #556575;
+  color: #e8ebec;
 }
 
 .c-navbar-icon:hover {
@@ -4633,7 +4637,7 @@ figcaption {
   padding: 16px 0px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #1d2b36;
+  color: #e8ebec;
   font-weight: 700;
 }
 
